@@ -64,3 +64,29 @@ I won't pretend that this is easy.  Whenever a <b>Merge Conflict</b> occurs, the
 If you are using Jetbrains Webstorm there is a dedicated Git Tab for the program.  Using this you can use the above tutorial to set up version control within your IDE.
 
 <h1>Glossary</h1>
+
+<ul>
+  <li><b>Branch</b>- A branch is a divergence from the main development path.  Most Gits have a master branch where the final product is.  Some also have a testing branch</li>
+  <li><b>Clone</b>- A command in Git that allows you to completely copy the repository specified to a new repo.</li>
+  <li><b>Commit</b>- Making changes which stages onto the current branch ready to be pushed. </li>
+  <li><b>Fetch</b>- Download Specific files and references from other repos.</li>
+  <li><b>GIT</b>- Git is the opensource version control system.</li>
+  <li><b>GitHub</b>- A place where Git repositories are hosted.</li>
+  <li><b>Merge</b>- To take the contents of code from one repository and append them and add them to another.</li>
+  <li><b>Merge Conflict</b>- An error that occurs when trying to put two repos together.</li>
+  <li><b>Push</b>- Moving the change from staging to the branch specified in the repo specified from your computer.</li>
+  <li><b>Pull</b>- Pulling the latest files from the branch specified in the repo specified to your computer.</li>
+  <li><b>Remote</b>- A destination that is decided to send data to, usually the Github repo link.</li>
+  <li><b>Repository</b>- A place where all data and changes are stored and documented. </li>
+</ul>
+
+<h3>References</h3>
+<ul>
+  <li>https://blog.axosoft.com/learning-git-repository/</li>
+  <li>https://git-scm.com/</li>
+  <li>https://www.jetbrains.com/help/webstorm/meet-webstorm.html</li>
+  <li>https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts</li>
+  <li>My own routine and knowledge</li>
+ </ul>
+ 
+ This Project was created by Sherwin Rahimi (sr844@njit.edu)
