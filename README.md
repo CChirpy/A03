@@ -25,23 +25,42 @@ Now we go over how to set up your very first <b>Repository</b>.
 Congratulations! You've installed GitBash.  Now we are going to make our first <b>Repository</b>.
 
 <ul>
-<li>First create a directory to make your <b>Repository</b> in.</li>
-
-<li>Next you want to actually go into that new directory.</li>
-
-<li>At this point you should navigate your Git Bash Client to the directory using the <code>CD</code> command<br/></li>
+  <li>First create a directory to make your <b>Repository</b> in.</li>
+  <li>Next you want to actually go into that new directory.</li>
+  <li>At this point you should navigate your Git Bash Client to the directory using the <code>CD</code> command<br/></li>
 and example of this is <code>CD C:/Users/Sherwin/Documents/GITHUBREPO</code>
-
-<li>Once you are navigated you can type in <code>git init</code> (This initializes the <b>repository</b>)</li>
-
-<li>Go ahead an make a text file in the directory you just made.</li>
-
-<li>Now, back in Git Bash type in <code>git add</code> and the name of your file following a space.</br>
+  <li>Once you are navigated you can type in <code>git init</code> (This initializes the <b>repository</b>)</li>
+  <li>Go ahead an make a text file in the directory you just made.</li>
+  <li>Now, back in Git Bash type in <code>git add</code> and the name of your file following a space.</br>
 This should mark the file for Git's retrieval</li>
-
-<li>Finally you want to type in <code>git commit</code></br>
+  <li>Finally you want to type in <code>git commit</code></br>
 This should move the file to a <b>commit</b></br>
 If you do <code>git commit -m "My message here"</code> You can modify the commit message.</li>
 </ul>
 
 With that you have made your First <b>Repository</b>  This Repo is only on your machine however, you have not yet hosted it on <b>GitHub</b>.  Now we go over how to send your <b>Git</b> to a <b>remote</b>.
+
+<h3>Step Three: Linking <b>GitHub</b> to your Repo</h3>
+
+Lets link that <b>Repository</b> to a <b>GitHub</b> repo.
+
+<ul>
+  <li>First Thing you want to do is navigate to http://github.com</li>
+  <li>Login to a GitHub account or make a new one for free.</li>
+  <li>On the top right corner there will be a plus.  Click the plus and click "New Repository"</li>
+  <li>Modify your settings as required and click "Create Repository"</li>
+  <li>Now, on your Git Bash you will type <code>git remote add origin http://github.com/yourusername/yourrepo</code></br>
+  This means that your <b>repository</b> now has a <b>remote</b> access to <b>GitHub</b></li>
+  <li>Finally, perform <code>git push -u origin master</code></br>
+  This means you are <b>pushing</b> the update to your Origin which we defined in our <b>remote</b> in the master <b>branch</b>.</li>
+</ul>
+
+<h3>Step Four: Dealing with <b>Merges</b> and <b>Merge Conflicts</b></h3>
+
+I won't pretend that this is easy.  Whenever a <b>Merge Conflict</b> occurs, there is many ways to deal with it.  Atlassian wrote a great article on it here:https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts.
+
+<h3>Webstorm integration with GitHub</h3>
+
+If you are using Jetbrains Webstorm there is a dedicated Git Tab for the program.  Using this you can use the above tutorial to set up version control within your IDE.
+
+<h1>Glossary</h1>
