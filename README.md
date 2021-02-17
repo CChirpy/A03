@@ -24,11 +24,24 @@ Now we go over how to set up your very first <b>Repository</b>.
 
 Congratulations! You've installed GitBash.  Now we are going to make our first <b>Repository</b>.
 
--First create a directory to make your <b>Repository</b> in.
+<ul>
+<li>First create a directory to make your <b>Repository</b> in.</li>
 
--Next you want to actually go into that new directory.
+<li>Next you want to actually go into that new directory.</li>
 
--At this point you should navigate your Git Bash Client to the directory using the <code>CD</code> command<br/>
+<li>At this point you should navigate your Git Bash Client to the directory using the <code>CD</code> command<br/></li>
 and example of this is <code>CD C:/Users/Sherwin/Documents/GITHUBREPO</code>
 
--Once you are navigated you can type in <code>git init</code> (This initializes the <b>repository</b>)
+<li>Once you are navigated you can type in <code>git init</code> (This initializes the <b>repository</b>)</li>
+
+<li>Go ahead an make a text file in the directory you just made.</li>
+
+<li>Now, back in Git Bash type in <code>git add</code> and the name of your file following a space.</br>
+This should mark the file for Git's retrieval</li>
+
+<li>Finally you want to type in <code>git commit</code></br>
+This should move the file to a <b>commit</b></br>
+If you do <code>git commit -m "My message here"</code> You can modify the commit message.</li>
+</ul>
+
+With that you have made your First <b>Repository</b>  This Repo is only on your machine however, you have not yet hosted it on <b>GitHub</b>.  Now we go over how to send your <b>Git</b> to a <b>remote</b>.
