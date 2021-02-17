@@ -89,4 +89,4 @@ If you are using Jetbrains Webstorm there is a dedicated Git Tab for the program
   <li>My own routine and knowledge</li>
  </ul>
  
- This Project was created by Sherwin Rahimi (sr844@njit.edu)
+ <b>This Project was created by Sherwin Rahimi (sr844@njit.edu)</b>
